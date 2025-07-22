@@ -1,3 +1,5 @@
 this portfolio made by using bootstrap and html css 
 <br>
-you can see my portfolio on tapping deployment
+https://kishor7329.github.io/Portfolio/
+<br>
+this is link for my portfolio 
