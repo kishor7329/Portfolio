@@ -1,0 +1,140 @@
+.navbar{
+    background-color: rgb(16, 8, 1);
+    text-align: right;
+    color: black;
+    
+}
+.container-fluid{
+    background-color: rgb(239, 241, 241);
+    
+    
+}
+body{
+    padding: 0;
+margin: 0;
+}
+ .navbar-nav{
+    margin-left: auto;
+ }
+.navbar-nav li{
+    padding-right: 59px;
+    font-weight: bolder;
+text-align: right;
+color: black;
+}
+ .navbar-toggler{
+    margin-left: auto;
+    background-color: azure;
+ }
+ .navbar-nav .nav-link:hover {
+     text-decoration: underline; 
+    background-color: white;
+    }
+  @keyframes floatUpDown {
+      0% {
+          transform: translateY(0);
+      }
+
+      50% {
+          transform: translateY(-20px);
+      }
+
+      100% {
+          transform: translateY(0);
+      }
+  }
+
+#img-class {
+      animation: floatUpDown 3s ease-in-out infinite;
+  }
+ .animated-box {
+     cursor: none;
+ }
+
+ .animated-box::after {
+     animation: entryMotion 2s ease-out forwards;
+     cursor: default;
+ }
+
+  .animated-box {
+      border: 2px solid transparent;
+      animation: entryMotion 2s ease-out forwards;
+  }
+   
+.card {
+    margin: 0 10px;
+    /* horizontal space */
+    transition: all 0.3s ease;
+    z-index: 0;
+}
+
+.card:hover {
+    z-index: 10;
+    border-color: #00BFFF;
+    transform: translateY(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            margin-left: 150px;
+        }
+    
+        .timeline {
+            position: relative;
+            margin-left: 150px;
+            padding-left: 20px;
+            border-left: 3px solid #0d6efd;
+        }
+    
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background-color: #0d6efd;
+        }
+    
+        .timeline-entry {
+            position: relative;
+            margin-bottom: 30px;
+        }
+    
+        .timeline-entry::before {
+            content: '';
+            position: absolute;
+            left: -16px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background-color: #0d6efd;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+    
+        .timeline-entry h5 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+    
+        .timeline-entry p {
+            margin: 0;
+            color: #6c757d;
+        }
+    
+        @media (max-width: 768px) {
+            .timeline {
+                margin-left: 20px;
+            }
+            .section-title {
+                margin-left: 20px;
+            }
+            .image{
+                padding-top: 70px;
+            }
+        }
